@@ -1,50 +1,40 @@
-# Temple of Time 🛕
+# Vite-Lumen Starter Template
 
-![alt text](https://64.media.tumblr.com/69de98405fbd0ff131c7e34e71e517f4/tumblr_nv4euoaSRu1ufzu8po1_500.gifv)
+Add vite anywhere on your templates or app by using the `Vite` helper class.
 
-This is a template repository containing some stuff to save time when creating a new repo.
+For example add it into your bootstrap file like this:
 
-![top-language](https://img.shields.io/github/languages/top/bcakmakoglu/temple-of-time)
-[![dependencies Status](https://status.david-dm.org/gh/bcakmakoglu/temple-of-time.svg)](https://david-dm.org/bcakmakoglu/temple-of-time)
-[![devDependencies Status](https://status.david-dm.org/gh/bcakmakoglu/temple-of-time.svg?type=dev)](https://david-dm.org/bcakmakoglu/temple-of-time?type=dev)
-![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/bcakmakoglu/temple-of-time)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bcakmakoglu/temple-of-time)
-![GitHub last commit](https://img.shields.io/github/last-commit/bcakmakoglu/temple-of-time)
-
-**Awesome Repo 🍟**
-
-
-## 🛠 Setup
-Some info on setup here.
-
-```bash
-# install
-$ yarn add @braks/repo
-
-# or
-$ npm i --save @braks/repo
+```php
+// Register main.ts file 
+$vite = $app->make(\App\Providers\Vite\Vite::class);
+echo $vite('main.ts');
 ```
 
-## 🧪 Development
-Info on development.
+## Vite
 
-Example for starting/building app:
-```bash
-# start (dev)
-$ yarn dev
+To properly get the app to work you should check the Vite.php file and modify it to your needs.
 
-# build app
-$ yarn build
+# Lumen
 
-# serve app from build
-$ yarn serve
+Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We
+believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain
+out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction,
+queueing, and caching.
 
-# build dist
-$ yarn build:dist
-```
+## Official Documentation
 
-## 🕵🏻‍♂️ Tests
-Some info about testing.
+Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
-# Sponsors 💝
-Possible sponsor list
+## Contributing
+
+Thank you for considering contributing to Lumen! The contribution guide can be found in
+the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All
+security vulnerabilities will be promptly addressed.
+
+## License
+
+The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

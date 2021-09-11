@@ -1,7 +1,7 @@
 {
-    "name": "laravel/lumen",
-    "description": "The Laravel Lumen Framework.",
-    "keywords": ["framework", "laravel", "lumen"],
+    "name": "braks/vite-lumen-starter",
+    "description": "Vite + Vue 3 + Lumen Starter Template",
+    "keywords": ["framework", "laravel", "lumen", "vue", "vue3", "vite", "docker", "docker-compose", "php"],
     "license": "MIT",
     "type": "project",
     "require": {

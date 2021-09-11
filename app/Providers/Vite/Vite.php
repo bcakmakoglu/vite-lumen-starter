@@ -24,7 +24,7 @@ class Vite {
     function jsTag(string $entry): string
     {
         $url = IS_DEVELOPMENT
-            ? 'http://localhost:3000/' . $entry
+            ? 'http://localhost:3000/src/' . $entry
             : $this->assetUrl($entry);
 
         if (!$url) {

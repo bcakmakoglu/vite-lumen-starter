@@ -14,6 +14,12 @@ echo $vite('main.ts');
 
 To properly get the app to work you should check the Vite.php file and modify it to your needs.
 
+# ⚒️ Setup 
+Get started using the docker setup or check the Laravel Valet docs.
+
+```bash
+ $ docker-compose up --d
+```
 # Lumen
 
 Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We

@@ -8,11 +8,9 @@ export default defineConfig({
         vue(),
     ],
 
-    root: 'src',
-
     build: {
         // output dir for production build
-        outDir: resolve(__dirname, '../public/'),
+        // outDir: resolve(__dirname, '../public/'),
 
         // emit manifest so PHP can find the hashed files
         manifest: true,
@@ -33,7 +31,9 @@ export default defineConfig({
         // we need a strict port to match on PHP side
         // change freely, but update on PHP to match the same port
         strictPort: true,
+        host: '0.0.0.0',
         port: 3000,
+        open: false,
     },
 
     // required for in-browser template compilation
